@@ -3,8 +3,9 @@ knitr::opts_chunk$set(tidy = FALSE, cache = FALSE, autodep = TRUE)
 
 ## ----loadlibs, message=FALSE, warning=FALSE------------------------------
 # install OPWeight package
-source("https://bioconductor.org/biocLite.R")
-biocLite("OPWeight", suppressUpdates=TRUE)
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("OPWeight", suppressUpdates=TRUE)
 
 # load packages
 library("OPWeight")
