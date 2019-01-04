@@ -1,7 +1,7 @@
 Package: OPWeight
 Type: Package
 Title: Optimal p-value weighting with independent information
-Version: 1.4.0
+Version: 1.4.1
 Date: 2017-02-26
 Authors@R: c(person("Mohamad", "Hasan", email =
         "shakilmohamad7@gmail.com", role = c("aut", "cre")),
@@ -19,7 +19,7 @@ Imports: graphics, qvalue, MASS, tibble, stats,
 Suggests: airway, BiocStyle, cowplot, DESeq2, devtools, ggplot2,
         gridExtra, knitr, Matrix, rmarkdown, scales, testthat
 VignetteBuilder: knitr
-biocViews: BiomedicalInformatics, MultipleComparison, Regression,
+biocViews: ImmunoOncology, BiomedicalInformatics, MultipleComparison, Regression,
         RNASeq, SNP
 RoxygenNote: 6.0.1
 URL: https://github.com/mshasan/OPWeight
